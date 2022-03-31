@@ -50,7 +50,7 @@ async function getQuotes() {
         newQuote()
     }
     catch(error)
-    {    }
+    {  console.log('Whoops,no quote! TypeError : Failed to fetch')  }
     complete();
 }
 
